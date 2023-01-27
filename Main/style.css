@@ -1,0 +1,159 @@
+
+/* Header*/
+.leiste{
+background-color: black;
+margin: 0;
+}
+
+.logo{
+    margin-top: 3%;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/*Warenkorb/Instagram/Login*/
+.header ul{
+    margin-inline-start: 90%;
+}
+.header ul img{
+    width: 20px;
+    
+}
+
+
+/* Navbar.*/
+.navbar {
+background-color:grey;
+height: 50px;
+text-align: center;
+box-shadow: 0px 5px 0px #dedede;
+margin: 0 0px;
+margin-top: 1%;
+}
+
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a{
+    display: inline-block;
+    padding-top: 1%;
+    text-align: center;
+    letter-spacing: 0.5px;
+    position: relative;
+    
+}
+
+/*Hover effect für Liste*/
+
+ .a1:after{
+    content:"";
+    position: absolute;
+    background-color: white;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: 0px;
+    transition: 0.3s;
+
+ } 
+ .a1:hover:after{
+    width: 100%;
+ }
+
+/* Schrifart*/
+.firstnav li {
+    font-family: 'Ubuntu', sans-serif;
+    display: inline;
+    margin: 30px;
+    font-size: 100%;
+
+}
+/* Suchleiste*/
+ input{
+    float: right;
+    padding: 10px;
+    padding-left: 50px;
+    margin-right: 12px;
+    margin-top: 0.5%;
+    font-size: 10px;
+    background: #f1f1f1;
+    
+}
+input::placeholder {
+color: black;
+font-size: 15px;
+
+}
+/* Button mit Icon */
+button {
+       float: right;
+       height: 35px;
+       width: 3%;
+       padding: 10px;
+       background: black;
+       color: rgb(237, 235, 235);
+       border: 1px solid rgb(9, 8, 8);
+     
+       margin-top: 0.5%;
+       margin-right: 10px;
+       
+     }
+     button:hover {
+        background: grey;
+     }
+     /*Navbar End*/
+
+
+     /*Hier kommen bilder rein mit Link*/
+     h2{
+        margin-top: 100px;
+        font-size: 50px;
+     }
+
+
+
+
+
+     /*Informationen (Buttom)*/
+    .info{
+        background-color:grey;
+        box-shadow: 0px 5px 0px #dedede;
+        position: absolute;
+        left:0;
+        right: 0;
+        /*später bottom=-40%*/
+        bottom: -40%;;
+        height:40%;
+        width:100%;   
+    
+    }
+    
+    .kontakt {
+        font-size: 30px;
+        color: rgb(243, 222, 170);
+        padding-left: 70%;
+        padding-top: 3%;
+        margin-top: auto;
+    
+        
+    }
+
+    .kontakt li{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 15px;
+        color: #dedede;
+        list-style: none;
+        height: 50px;
+        display:table;
+        margin-left: 40%;
+        margin-top: 2%;
+    
+    }
